@@ -20,7 +20,7 @@ The following steps will get you set up to contribute changes to this repo:
 
 ```bash
 
-git clone https://gitlab.com/tozzaplus_systems/workpay-design-theme.git
+git clone https://github.com/maxwaiyaki/theme.git
 
 ```
 
