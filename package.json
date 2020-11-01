@@ -1,0 +1,43 @@
+{
+  "name": "workpay-design",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "docs"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/tozzaplus_systems/workpay-design-theme.git"
+  },
+  "author": "Workpay",
+  "license": "ISC",
+  "scripts": {
+    "prestart": "yarn && yarn bootstrap",
+    "docs": "yarn workspace @workpay-design/docs",
+    "docs:start": "yarn docs dev",
+    "clean": "lerna clean --yes && rm -rf node_modules",
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "list-packages": "lerna list --all"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^4.3.0",
+    "lerna": "^3.22.1",
+    "lint-staged": "^10.5.0",
+    "prettier": "^2.1.2"
+  },
+  "peerDependencies": {
+    "react": ">=16.3",
+    "react-dom": ">=16.3"
+  }
+}

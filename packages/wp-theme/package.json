@@ -1,0 +1,13 @@
+{
+  "name": "@workpay-design/theme",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "license": "ISC",
+  "private": true,
+  "peerDependencies": {
+    "@chakra-ui/core": ">=1.0.0-rc.5"
+  },
+  "devDependencies": {
+    "@chakra-ui/core": "1.0.0-rc.7"
+  }
+}
